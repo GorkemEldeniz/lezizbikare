@@ -5,7 +5,7 @@ export default defineSchema({
   users: defineTable({
     name: v.string(),
     // role either admin or user default value user
-    role: v.optional(v.union(v.literal("admin"), v.literal("user"))),
+    role: v.optional(v.union(v.literal("admin"), v.literal("member"))),
     // this the Clerk ID, stored in the subject JWT field
     externalId: v.string(),
   }).index("byExternalId", ["externalId"]),
