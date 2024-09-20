@@ -1,25 +1,13 @@
-'use client'
+"use client";
 
-import { SignInButton, SignOutButton, UserButton } from "@clerk/nextjs";
-import { Authenticated, Unauthenticated } from "convex/react";
+import BannerWrapper from "@/components/banner-wrapper";
+import PostWrapper from "@/components/post-wrapper";
 
-function App() {
-  return (
-    <main>
-      <Unauthenticated>
-        <SignInButton />
-      </Unauthenticated>
-      <Authenticated>
-        <UserButton />
-        <Content />
-				<SignOutButton />
-      </Authenticated>
-    </main>
-  );
+export default function Home() {
+	return (
+		<main className='flex flex-col gap-4'>
+			<BannerWrapper />
+			<PostWrapper />
+		</main>
+	);
 }
-
-function Content() {
-  return <div>Protected content</div>;
-}
-
-export default App;
