@@ -1,9 +1,21 @@
 import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server'
 
 const isPublicRoute = createRouteMatcher(['/', '/sign-in(.*)', '/sign-up(.*)'])
+const isAdminRoute = createRouteMatcher(['/admin(.*)'])
 
-export default clerkMiddleware((auth, req) => {
+export default clerkMiddleware(async (auth, req) => {
+  // Restrict admin routes to users with specific permissions
+  if (isAdminRoute(req)) {
+    auth().protect((has) => {
+      return (
+        has({ role: 'org:admin' })
+      )
+    })
+  }
+  // protect routes
   if (!isPublicRoute(req)) auth().protect()
+  // check if user is admin if they are accessing admin routes
+
 })
 
 export const config = {
