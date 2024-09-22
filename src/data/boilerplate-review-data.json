@@ -1,0 +1,462 @@
+[
+  {
+    "id": "1",
+    "user_id": "user1",
+    "article": "This is a detailed article for movie 1. It provides an in-depth analysis and review of the movie, discussing various aspects such as the plot, characters, direction, and overall impact.",
+    "score": 8.5,
+    "media": {
+      "id": "media1",
+      "title": "Movie 1",
+      "genre": "Action",
+      "synopsis": "Synopsis for movie 1.",
+      "images_url": [
+        "https://via.placeholder.com/250x400"
+      ],
+      "directors_id": "director1",
+      "year": 2024,
+      "release_date": "2024-01-01",
+      "thumbnail_url": "https://via.placeholder.com/250x400",
+      "duration": 206,
+      "rating": 8.5
+    },
+    "type": "movie critique",
+    "title": "Movie 1"
+  },
+  {
+    "id": "2",
+    "user_id": "user2",
+    "article": "This is a detailed article for movie 2. It provides an in-depth analysis and review of the movie, discussing various aspects such as the plot, characters, direction, and overall impact.",
+    "score": 7.5,
+    "media": {
+      "id": "media2",
+      "title": "Movie 2",
+      "genre": "Comedy",
+      "synopsis": "Synopsis for movie 2.",
+      "images_url": [
+        "https://via.placeholder.com/250x400"
+      ],
+      "directors_id": "director2",
+      "year": 2024,
+      "release_date": "2024-02-15",
+      "thumbnail_url": "https://via.placeholder.com/250x400",
+      "duration": 118,
+      "rating": 7.5
+    },
+    "type": "tv series critique",
+    "title": "Tv Series 2"
+  },
+  {
+    "id": "3",
+    "user_id": "user3",
+    "article": "This is a detailed article for movie 3. It provides an in-depth analysis and review of the movie, discussing various aspects such as the plot, characters, direction, and overall impact.",
+    "score": 6.5,
+    "media": {
+      "id": "media3",
+      "title": "Movie 3",
+      "genre": "Drama",
+      "synopsis": "Synopsis for movie 3.",
+      "images_url": [
+        "https://via.placeholder.com/250x400"
+      ],
+      "directors_id": "director3",
+      "year": 2024,
+      "release_date": "2024-03-22",
+      "thumbnail_url": "https://via.placeholder.com/250x400",
+      "duration": 135,
+      "rating": 6.5
+    },
+    "type": "movie critique",
+    "title": "Movie 3"
+  },
+  {
+    "id": "4",
+    "user_id": "user4",
+    "article": "This is a detailed article for movie 4. It provides an in-depth analysis and review of the movie, discussing various aspects such as the plot, characters, direction, and overall impact.",
+    "score": 5.5,
+    "media": {
+      "id": "media4",
+      "title": "Movie 4",
+      "genre": "Romance",
+      "synopsis": "Synopsis for movie 4.",
+      "images_url": [
+        "https://via.placeholder.com/250x400"
+      ],
+      "directors_id": "director4",
+      "year": 2024,
+      "release_date": "2024-04-10",
+      "thumbnail_url": "https://via.placeholder.com/250x400",
+      "duration": 110,
+      "rating": 5.5
+    },
+    "type": "tv series critique",
+    "title": "Tv Series 4"
+  },
+  {
+    "id": "5",
+    "user_id": "user5",
+    "article": "This is a detailed article for movie 5. It provides an in-depth analysis and review of the movie, discussing various aspects such as the plot, characters, direction, and overall impact.",
+    "score": 9.0,
+    "media": {
+      "id": "media5",
+      "title": "Movie 5",
+      "genre": "Action",
+      "synopsis": "Synopsis for movie 5.",
+      "images_url": [
+        "https://via.placeholder.com/250x400"
+      ],
+      "directors_id": "director5",
+      "year": 2024,
+      "release_date": "2024-05-05",
+      "thumbnail_url": "https://via.placeholder.com/250x400",
+      "duration": 142,
+      "rating": 9.0
+    },
+    "type": "movie critique",
+    "title": "Movie 5"
+  },
+  {
+    "id": "6",
+    "user_id": "user6",
+    "article": "This is a detailed article for movie 6. It provides an in-depth analysis and review of the movie, discussing various aspects such as the plot, characters, direction, and overall impact.",
+    "score": 8.0,
+    "media": {
+      "id": "media6",
+      "title": "Movie 6",
+      "genre": "Comedy",
+      "synopsis": "Synopsis for movie 6.",
+      "images_url": [
+        "https://via.placeholder.com/250x400"
+      ],
+      "directors_id": "director6",
+      "year": 2024,
+      "release_date": "2024-06-18",
+      "thumbnail_url": "https://via.placeholder.com/250x400",
+      "duration": 95,
+      "rating": 8.0
+    },
+    "type": "tv series critique",
+    "title": "Tv Series 6"
+  },
+  {
+    "id": "7",
+    "user_id": "user7",
+    "article": "This is a detailed article for movie 7. It provides an in-depth analysis and review of the movie, discussing various aspects such as the plot, characters, direction, and overall impact.",
+    "score": 7.0,
+    "media": {
+      "id": "media7",
+      "title": "Movie 7",
+      "genre": "Drama",
+      "synopsis": "Synopsis for movie 7.",
+      "images_url": [
+        "https://via.placeholder.com/250x400"
+      ],
+      "directors_id": "director7",
+      "year": 2024,
+      "release_date": "2024-07-07",
+      "thumbnail_url": "https://via.placeholder.com/250x400",
+      "duration": 128,
+      "rating": 7.0
+    },
+    "type": "movie critique",
+    "title": "Movie 7"
+  },
+  {
+    "id": "8",
+    "user_id": "user8",
+    "article": "This is a detailed article for movie 8. It provides an in-depth analysis and review of the movie, discussing various aspects such as the plot, characters, direction, and overall impact.",
+    "score": 6.0,
+    "media": {
+      "id": "media8",
+      "title": "Movie 8",
+      "genre": "Romance",
+      "synopsis": "Synopsis for movie 8.",
+      "images_url": [
+        "https://via.placeholder.com/250x400"
+      ],
+      "directors_id": "director8",
+      "year": 2024,
+      "release_date": "2024-08-14",
+      "thumbnail_url": "https://via.placeholder.com/250x400",
+      "duration": 115,
+      "rating": 6.0
+    },
+    "type": "tv series critique",
+    "title": "Tv Series 8"
+  },
+  {
+    "id": "9",
+    "user_id": "user9",
+    "article": "This is a detailed article for movie 9. It provides an in-depth analysis and review of the movie, discussing various aspects such as the plot, characters, direction, and overall impact.",
+    "score": 9.5,
+    "media": {
+      "id": "media9",
+      "title": "Movie 9",
+      "genre": "Action",
+      "synopsis": "Synopsis for movie 9.",
+      "images_url": [
+        "https://via.placeholder.com/250x400"
+      ],
+      "directors_id": "director9",
+      "year": 2024,
+      "release_date": "2024-09-09",
+      "thumbnail_url": "https://via.placeholder.com/250x400",
+      "duration": 150,
+      "rating": 9.5
+    },
+    "type": "movie critique",
+    "title": "Movie 9"
+  },
+  {
+    "id": "10",
+    "user_id": "user10",
+    "article": "This is a detailed article for movie 10. It provides an in-depth analysis and review of the movie, discussing various aspects such as the plot, characters, direction, and overall impact.",
+    "score": 8.5,
+    "media": {
+      "id": "media10",
+      "title": "Movie 10",
+      "genre": "Comedy",
+      "synopsis": "Synopsis for movie 10.",
+      "images_url": [
+        "https://via.placeholder.com/250x400"
+      ],
+      "directors_id": "director10",
+      "year": 2024,
+      "release_date": "2024-10-10",
+      "thumbnail_url": "https://via.placeholder.com/250x400",
+      "duration": 105,
+      "rating": 8.5
+    },
+    "type": "tv series critique",
+    "title": "Tv Series 10"
+  },
+  {
+    "id": "11",
+    "user_id": "user11",
+    "article": "This is a detailed article for movie 11. It provides an in-depth analysis and review of the movie, discussing various aspects such as the plot, characters, direction, and overall impact.",
+    "score": 7.5,
+    "media": {
+      "id": "media11",
+      "title": "Movie 11",
+      "genre": "Drama",
+      "synopsis": "Synopsis for movie 11.",
+      "images_url": [
+        "https://via.placeholder.com/250x400"
+      ],
+      "directors_id": "director11",
+      "year": 2024,
+      "release_date": "2024-11-11",
+      "thumbnail_url": "https://via.placeholder.com/250x400",
+      "duration": 132,
+      "rating": 7.5
+    },
+    "type": "movie critique",
+    "title": "Movie 11"
+  },
+  {
+    "id": "12",
+    "user_id": "user12",
+    "article": "This is a detailed article for movie 12. It provides an in-depth analysis and review of the movie, discussing various aspects such as the plot, characters, direction, and overall impact.",
+    "score": 6.5,
+    "media": {
+      "id": "media12",
+      "title": "Movie 12",
+      "genre": "Romance",
+      "synopsis": "Synopsis for movie 12.",
+      "images_url": [
+        "https://via.placeholder.com/250x400"
+      ],
+      "directors_id": "director12",
+      "year": 2024,
+      "release_date": "2024-12-12",
+      "thumbnail_url": "https://via.placeholder.com/250x400",
+      "duration": 120,
+      "rating": 6.5
+    },
+    "type": "tv series critique",
+    "title": "Tv Series 12"
+  },
+  {
+    "id": "13",
+    "user_id": "user13",
+    "article": "This is a detailed article for movie 13. It provides an in-depth analysis and review of the movie, discussing various aspects such as the plot, characters, direction, and overall impact.",
+    "score": 9.0,
+    "media": {
+      "id": "media13",
+      "title": "Movie 13",
+      "genre": "Action",
+      "synopsis": "Synopsis for movie 13.",
+      "images_url": [
+        "https://via.placeholder.com/250x400"
+      ],
+      "directors_id": "director13",
+      "year": 2024,
+      "release_date": "2024-01-13",
+      "thumbnail_url": "https://via.placeholder.com/250x400",
+      "duration": 138,
+      "rating": 9.0
+    },
+    "type": "movie critique",
+    "title": "Movie 13"
+  },
+  {
+    "id": "14",
+    "user_id": "user14",
+    "article": "This is a detailed article for movie 14. It provides an in-depth analysis and review of the movie, discussing various aspects such as the plot, characters, direction, and overall impact.",
+    "score": 8.0,
+    "media": {
+      "id": "media14",
+      "title": "Movie 14",
+      "genre": "Comedy",
+      "synopsis": "Synopsis for movie 14.",
+      "images_url": [
+        "https://via.placeholder.com/250x400"
+      ],
+      "directors_id": "director14",
+      "year": 2024,
+      "release_date": "2024-02-14",
+      "thumbnail_url": "https://via.placeholder.com/250x400",
+      "duration": 98,
+      "rating": 8.0
+    },
+    "type": "tv series critique",
+    "title": "Tv Series 14"
+  },
+  {
+    "id": "15",
+    "user_id": "user15",
+    "article": "This is a detailed article for movie 15. It provides an in-depth analysis and review of the movie, discussing various aspects such as the plot, characters, direction, and overall impact.",
+    "score": 7.0,
+    "media": {
+      "id": "media15",
+      "title": "Movie 15",
+      "genre": "Drama",
+      "synopsis": "Synopsis for movie 15.",
+      "images_url": [
+        "https://via.placeholder.com/250x400"
+      ],
+      "directors_id": "director15",
+      "year": 2024,
+      "release_date": "2024-03-15",
+      "thumbnail_url": "https://via.placeholder.com/250x400",
+      "duration": 125,
+      "rating": 7.0
+    },
+    "type": "movie critique",
+    "title": "Movie 15"
+  },
+  {
+    "id": "16",
+    "user_id": "user16",
+    "article": "This is a detailed article for movie 16. It provides an in-depth analysis and review of the movie, discussing various aspects such as the plot, characters, direction, and overall impact.",
+    "score": 6.0,
+    "media": {
+      "id": "media16",
+      "title": "Movie 16",
+      "genre": "Romance",
+      "synopsis": "Synopsis for movie 16.",
+      "images_url": [
+        "https://via.placeholder.com/250x400"
+      ],
+      "directors_id": "director16",
+      "year": 2024,
+      "release_date": "2024-04-16",
+      "thumbnail_url": "https://via.placeholder.com/250x400",
+      "duration": 112,
+      "rating": 6.0
+    },
+    "type": "tv series critique",
+    "title": "Tv Series 16"
+  },
+  {
+    "id": "17",
+    "user_id": "user17",
+    "article": "This is a detailed article for movie 17. It provides an in-depth analysis and review of the movie, discussing various aspects such as the plot, characters, direction, and overall impact.",
+    "score": 9.5,
+    "media": {
+      "id": "media17",
+      "title": "Movie 17",
+      "genre": "Action",
+      "synopsis": "Synopsis for movie 17.",
+      "images_url": [
+        "https://via.placeholder.com/250x400"
+      ],
+      "directors_id": "director17",
+      "year": 2024,
+      "release_date": "2024-05-17",
+      "thumbnail_url": "https://via.placeholder.com/250x400",
+      "duration": 145,
+      "rating": 9.5
+    },
+    "type": "movie critique",
+    "title": "Movie 17"
+  },
+  {
+    "id": "18",
+    "user_id": "user18",
+    "article": "This is a detailed article for movie 18. It provides an in-depth analysis and review of the movie, discussing various aspects such as the plot, characters, direction, and overall impact.",
+    "score": 8.5,
+    "media": {
+      "id": "media18",
+      "title": "Movie 18",
+      "genre": "Comedy",
+      "synopsis": "Synopsis for movie 18.",
+      "images_url": [
+        "https://via.placeholder.com/250x400"
+      ],
+      "directors_id": "director18",
+      "year": 2024,
+      "release_date": "2024-06-18",
+      "thumbnail_url": "https://via.placeholder.com/250x400",
+      "duration": 102,
+      "rating": 8.5
+    },
+    "type": "tv series critique",
+    "title": "Tv Series 18"
+  },
+  {
+    "id": "19",
+    "user_id": "user19",
+    "article": "This is a detailed article for movie 19. It provides an in-depth analysis and review of the movie, discussing various aspects such as the plot, characters, direction, and overall impact.",
+    "score": 7.5,
+    "media": {
+      "id": "media19",
+      "title": "Movie 19",
+      "genre": "Drama",
+      "synopsis": "Synopsis for movie 19.",
+      "images_url": [
+        "https://via.placeholder.com/250x400"
+      ],
+      "directors_id": "director19",
+      "year": 2024,
+      "release_date": "2024-07-19",
+      "thumbnail_url": "https://via.placeholder.com/250x400",
+      "duration": 130,
+      "rating": 7.5
+    },
+    "type": "movie critique",
+    "title": "Movie 19"
+  },
+  {
+    "id": "20",
+    "user_id": "user20",
+    "article": "This is a detailed article for movie 20. It provides an in-depth analysis and review of the movie, discussing various aspects such as the plot, characters, direction, and overall impact.",
+    "score": 6.5,
+    "media": {
+      "id": "media20",
+      "title": "Movie 20",
+      "genre": "Romance",
+      "synopsis": "Synopsis for movie 20.",
+      "images_url": [
+        "https://via.placeholder.com/250x400"
+      ],
+      "directors_id": "director20",
+      "year": 2024,
+      "release_date": "2024-08-20",
+      "thumbnail_url": "https://via.placeholder.com/250x400",
+      "duration": 118,
+      "rating": 6.5
+    },
+    "type": "tv series critique",
+    "title": "Tv Series 20"
+  }
+]
