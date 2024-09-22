@@ -12,21 +12,27 @@ export default defineSchema({
   // one to many relationship between users and reviews
   reviews: defineTable({
     user_id: v.id("users"),
-    rating: v.float64(),
     article: v.string(),
-    score: v.number(),
-    media_ids: v.array(v.id("media")),
+    score: v.float64(),
+    media_id: v.id("media"),
     title: v.string(), // Added title field for reviews
+    type: v.optional(v.union(v.literal("movie critique"), v.literal("tv critique"))),
   })
     .index("byUser", ["user_id"])
     .searchIndex("search_title", { searchField: "title" }), // Search index for review title
-  // one to many relationship between reviews and media
+  // one to one relationship between reviews and media
   media: defineTable({
     title: v.string(),
     genre: v.string(),
     synopsis: v.string(),
+    review_id: v.id("reviews"),
+    thumbnail_url: v.string(),
     images_url: v.array(v.string()),
     directors_id: v.id("directors"),
+    year: v.number(),
+    release_date: v.string(),
+    duration: v.number(),
+    rating: v.float64(),
   }),
   // one to many relationship between media and actors
   actors: defineTable({
