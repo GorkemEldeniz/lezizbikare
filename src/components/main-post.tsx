@@ -67,7 +67,7 @@ function MainPostCard({ id, media, title, article, type }: MainPostCardProps) {
 				<CardContent className='w-full sm:w-2/3 p-4 flex flex-col justify-between bg-card'>
 					<div>
 						<h2 className='text-2xl font-semibold mb-2 text-card-foreground'>
-							{title} ({media.year})
+							{title}
 						</h2>
 						<p className='text-muted-foreground text-sm mb-4'>{article}</p>
 						<div className='flex flex-wrap gap-4 text-sm text-muted-foreground'>
