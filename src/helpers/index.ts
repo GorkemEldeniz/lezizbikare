@@ -15,5 +15,12 @@ function getNavigationPath(id: string, type: "movie" | "tv"): string {
   }
   return "#";
 }
+// isActiveTab is used to determine if the current tab is active
+function isActiveTab(path: string, pathname: string) {
+  if (path === '/') {
+    return pathname === '/';
+  }
+  return pathname.startsWith(path);
+};
 
-export { formatReleaseDate, getNavigationPath };
+export { formatReleaseDate, getNavigationPath, isActiveTab };
